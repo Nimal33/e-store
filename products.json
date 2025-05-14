@@ -9,49 +9,49 @@
       "id": 2,
       "name": "Samsung s23",
       "price": 89999,
-      "image":"./p2.jpg"
+      "image":"p2.jpg"
     },
     {
       "id": 3,
       "name": "Samsung",
       "price": 79999,
-      "image": "./p3.jpg"
+      "image": "p3.jpg"
     },
     {
       "id": 4,
       "name": "LG TV",
       "price": 49990.99,
-      "image": "./t1.jpg"
+      "image": "t1.jpg"
     },
     {
       "id": 5,
       "name": "Samsung TV",
       "price": 89900.99,
-      "image": "./t2.jpg"
+      "image": "t2.jpg"
     },
     {
       "id": 6,
       "name": "Fridge",
       "price": 79999.99,
-      "image": "./t3.jpg"
+      "image": "t3.jpg"
     },
     {
       "id": 7,
       "name": "Shirt Men",
       "price": 499.99,
-      "image": "./d1.jpg"
+      "image": "d1.jpg"
     },
     {
       "id": 8,
       "name": "Shirt Women",
       "price": 899.99,
-      "image": "./d2.jpg"
+      "image": "d2.jpg"
     },
     {
       "id": 9,
       "name": "Children Dress",
       "price": 799.99,
-      "image": "./d3.jpg"
+      "image": "d3.jpg"
     }
   ]
   
