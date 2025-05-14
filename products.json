@@ -3,7 +3,7 @@
       "id": 1,
       "name": "Iphone 15",
       "price": 45000,
-      "image": "./p1.jpg"
+      "image": "p1.jpg"
     },
     {
       "id": 2,
