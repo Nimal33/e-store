@@ -1,0 +1,172 @@
+#head{
+    background-color: cyan;
+}
+body{
+    background: linear-gradient(135deg,#eff1f1,#f108de);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.navbar-brand{
+    font-weight: bolder;
+    font-family:cursive;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: linear-gradient(135deg,#00f7b5,#f108de);
+}
+
+.nav-link{
+    color: white;
+    font-size: 20px;
+}
+.fa-solid.fa-cart-shopping{
+    color: rgb(255, 254, 251);
+    font-size: 200%;
+    margin-right:50px;
+}
+#navbarSupportedContent a{
+color: rgb(247, 247, 247) ;
+border-bottom: 2px  solid transparent;
+
+}
+#navbarSupportedContent a:hover{
+border-bottom: 2px solid rgb(247, 0, 0);
+color: rgb(255, 255, 255);
+}
+.card-icon{
+    position: relative;
+    cursor: pointer;
+    }
+    .card-icon span{
+    background: rgb(94, 255, 19);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 14px;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    left: 25px;
+    margin-top:-10px;
+    cursor: pointer;
+    
+    }
+    #searchInput{
+        /* padding: 15px;
+        background-color: rgb(255, 255, 255);
+        margin-left: 20%;
+        margin-top: 10px;
+        width: 50%;
+        box-shadow: 5px 5px 50px rgb(0, 255, 98);
+        border-radius: 20px;
+        border: none;
+        font-size: 25px; */
+        /* padding: 10px;
+        border: none;
+        border-radius: 10px;
+        font-weight: bolder;
+        box-shadow: 2px 3px 30px rgb(219, 66, 66);
+        margin-left: 10px; */
+       
+    }
+    .in{
+        position: sticky;
+    }
+    #carouselExampleAutoplaying{
+       margin-top: 10px;
+       padding: 30px;
+       /* box-shadow: 0px 0px 100px rgb(238, 210, 51); */
+
+    }
+    .card-img-top{
+        width: 60%;
+        margin-left: 80px;
+        padding: 10px;
+    }
+    .card{
+        text-align: center;
+        font-weight: bold;
+    }
+    .mt-auto{
+        border-color: cyan;
+        padding: 10px;
+        
+    }
+    /*contect*/
+#contect img{
+    width: 90%;
+    height: 100%;
+
+}
+.box{
+    width: 80% !important;
+   
+    margin-top: 10px;
+    padding: 10px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+#contect input{
+    margin: 10px 0px;
+}
+#contect textarea{
+    margin: 10px 0px;
+}
+.signin{
+    background-color: rgb(34, 226, 34) !important;
+    color:white !important;
+    box-shadow: 2px 4px 5px rgb(28, 29, 28);
+
+}
+/* .fa-search{
+    background-color: white;
+    padding: 20px;
+    border-radius: 0px 10px 0px 10px;
+} */
+.search {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(219, 66, 66, 0.4);
+    margin-left: 1px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    margin-right: 10%;
+}
+
+.search:hover {
+    box-shadow: 0 6px 20px rgba(219, 66, 66, 0.6);
+}
+
+#searchInput {
+    font-weight: bolder;
+
+    border: none;
+    outline: none;
+    font-size: 24px;
+    padding: 3px 10px;
+    width: 100%;
+    background: transparent;
+    color: #333;
+    font-weight: normal;
+}
